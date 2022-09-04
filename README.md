@@ -1,0 +1,1 @@
+# ciftlik_sahibi
