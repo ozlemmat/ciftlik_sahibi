@@ -53,8 +53,7 @@ if page==("Çiftlik Sahibi Erişim Sayfası"):
     st.image(image11,width=700, caption="Akıllı Tarım ve Blokzinciri")
     st.markdown("Bu çalışmada yapılmak istenen proje, dış etkilerden arındırılmış bir sera ortamında çalışacaktır.Ortamdaki ürünlerin çeşitliliğine bağlı olarak sera farklı bölümlere ayrılacaktır. Yetiştirilecek bitkilerin ideal ortamlarının oluşturulması için sıcaklık ve nem sensörleri gibi farklı sensörlerle veri toplanacaktır. Akıllı tarım denmesinin bir diğer sebebi olan ürünün durum değerlendirmesinde bulunmasıdır. Yani sensörlerden elde edilen değerlerin çiftlik sahibine, çiftlik çalışanlarına, toptancıya kısacası uygulamayı kullanan herkese ürün hakkında gerekli bilgilerin(ortamın sıcaklık, nem gibi ortam bilgilerinin yanında ürünün verim kalitesi) verilmeye çalışılacaktır. Ürün kalitesi değerlendirilme aşamasında bulanık mantıktan destek alınacaktır. ")
     st.image(image18,width=700, caption="Akıllı Tarım")
-    if st.button("Sera Bilgisi"):
-        st.markdown("<a href='http://akilitarimdayenibirsoluk.rf.gd/?i=1' target='_parent'>Çiftlik Sahibi</a>",unsafe_allow_html=True)
+    
     if st.checkbox("Projede Kullanılan Program dilleri"):
         st.image(image13, "Python")
         st.markdown("<a href='https://www.python.org/'>Python</a>", unsafe_allow_html=True)
